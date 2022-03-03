@@ -12,8 +12,8 @@
     "contributes": {
         "keybindings": [
             {
-                "key": "ctrl+.",
-                "command": "workbench.action.showCommands"
+                "key": "ctrl+shift+[Equal]",
+                "command": "editor.fold"
             }
         ]
     }
