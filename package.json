@@ -3,6 +3,7 @@
     "displayName": "vscode-finnish-keybindings",
     "description": "",
     "version": "0.0.1",
+    "publisher": "AkiraTaguchi",
     "engines": {
         "vscode": "^1.64.0"
     },
@@ -16,5 +17,9 @@
                 "command": "editor.fold"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/akirataguchi115/vscode-finnish-keybindings"
     }
 }
