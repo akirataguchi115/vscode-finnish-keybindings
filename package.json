@@ -2,7 +2,7 @@
     "name": "vscode-finnish-keybindings",
     "displayName": "vscode-finnish-keybindings",
     "description": "",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "AkiraTaguchi",
     "engines": {
         "vscode": "^1.64.0"
@@ -17,7 +17,7 @@
                 "command": "editor.fold"
             },
             {
-                "key": "ctrl+shift+[BrackeLeft]",
+                "key": "ctrl+shift+[BracketLeft]",
                 "command": "editor.unfold"
             },
             {
