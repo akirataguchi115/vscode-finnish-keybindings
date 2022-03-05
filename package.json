@@ -19,6 +19,10 @@
             {
                 "key": "ctrl+shift+[BrackeLeft]",
                 "command": "editor.unfold"
+            },
+            {
+                "key": "ctrl+shift+[Semicolon]",
+                "command": "workbench.action.terminal.new"
             }
         ]
     },
