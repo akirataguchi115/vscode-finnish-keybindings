@@ -15,6 +15,10 @@
             {
                 "key": "ctrl+shift+[Equal]",
                 "command": "editor.fold"
+            },
+            {
+                "key": "ctrl+shift+[BrackeLeft]",
+                "command": "editor.unfold"
             }
         ]
     },
