@@ -1,15 +1,21 @@
 {
     "name": "vscode-finnish-keybindings",
-    "displayName": "vscode-finnish-keybindings",
+    "displayName": "Finnish keymap",
     "description": "",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "AkiraTaguchi",
     "engines": {
         "vscode": "^1.64.0"
     },
+		"license": "GPL-3.0-only",
     "categories": [
-        "Keymaps"
+				"Keymaps"
     ],
+		"extensionKind": [
+			"ui",
+			"workspace"
+		],
+		"icon": "icon.png",
     "contributes": {
         "keybindings": [
             {
@@ -29,5 +35,8 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/akirataguchi115/vscode-finnish-keybindings"
-    }
+    },
+		"bugs": {
+			"url": "https://github.com/akirataguchi115/vscode-finnish-keybindings/issues"
+		}
 }
