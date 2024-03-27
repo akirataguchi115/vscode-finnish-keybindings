@@ -1,45 +1,45 @@
 {
-    "name": "vscode-finnish-keybindings",
-    "displayName": "Finnish keymap",
-    "description": "",
-    "version": "0.0.5",
-    "publisher": "AkiraTaguchi",
-    "engines": {
-        "vscode": "^1.64.0"
-    },
-		"license": "GPL-3.0-only",
-    "categories": [
-				"Keymaps"
-    ],
-		"extensionKind": [
-			"ui",
-			"workspace"
-		],
-		"icon": "icon.png",
-    "contributes": {
-        "keybindings": [
-            {
-                "key": "ctrl+shift+[Equal]",
-                "command": "editor.fold"
-            },
-            {
-                "key": "ctrl+shift+[BracketLeft]",
-                "command": "editor.unfold"
-            },
-            {
-                "key": "ctrl+shift+[Semicolon]",
-                "command": "workbench.action.terminal.new"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/akirataguchi115/vscode-finnish-keybindings"
-    },
-		"bugs": {
-			"url": "https://github.com/akirataguchi115/vscode-finnish-keybindings/issues"
-		},
-		"sponsor": {
-			"url": "https://github.com/sponsors/akirataguchi115"
-		}
+	"name": "vscode-finnish-keybindings",
+	"displayName": "Finnish keymap",
+	"description": "Finnish keyboard layout keybindings",
+	"version": "0.0.5",
+	"publisher": "AkiraTaguchi",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"license": "GPL-3.0-only",
+	"categories": [
+		"Keymaps"
+	],
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"keybindings": [
+			{
+				"key": "ctrl+shift+[Equal]",
+				"command": "editor.fold"
+			},
+        		{
+				"key": "ctrl+shift+[BracketLeft]",
+                		"command": "editor.unfold"
+			},
+			{
+                		"key": "ctrl+shift+[Semicolon]",
+                		"command": "workbench.action.terminal.new"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/akirataguchi115/vscode-finnish-keybindings"
+	},
+	"bugs": {
+		"url": "https://github.com/akirataguchi115/vscode-finnish-keybindings/issues"
+	},
+	"sponsor": {
+		"url": "https://github.com/sponsors/akirataguchi115"
+	}
 }
