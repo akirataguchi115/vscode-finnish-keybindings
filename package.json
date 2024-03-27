@@ -2,7 +2,7 @@
 	"name": "vscode-finnish-keybindings",
 	"displayName": "Finnish keymap",
 	"description": "Finnish keyboard layout keybindings",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"publisher": "AkiraTaguchi",
 	"engines": {
 		"vscode": "^1.64.0"
